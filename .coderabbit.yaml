@@ -1,0 +1,11 @@
+language: "en-US"
+reviews:
+  # Enable high-level summary
+  summary: true
+  # Enable line-level code reviews
+  line_reviews: true
+  # Enable poem in the summary!
+  poem: true
+  # Auto-review all pull requests
+  auto_review:
+    enabled: true
