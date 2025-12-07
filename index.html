@@ -38,6 +38,7 @@
   <meta name="twitter:description"
     content="Get premium business cards in Canada with personal designer support. 1000 cards for $250 including velvet matte paper, foil/UV coating, 1 FREE NFC keychain." />
   <meta name="twitter:image" content="https://mapleprints.ca/resources/og-image.jpg" />
+  <meta name="twitter:site" content="@MaplePrints" />
 
   <!-- Geo Tags for Local SEO -->
   <meta name="geo.region" content="CA" />
@@ -636,6 +637,91 @@
         display: none;
       }
     }
+
+    /* SEO & Content Updates */
+    .faq-category-title {
+      margin: 2rem 0 1rem;
+      color: var(--primary);
+    }
+
+    .seo-content-container {
+      max-width: 900px;
+      margin: 3rem auto;
+      line-height: 1.8;
+    }
+
+    .seo-toc {
+      background: #f8f9fa;
+      padding: 2rem;
+      border-radius: 12px;
+      margin-bottom: 3rem;
+    }
+
+    .toc-title {
+      margin-bottom: 1rem;
+    }
+
+    .toc-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      list-style: none;
+      padding: 0;
+    }
+
+    .toc-link {
+      text-decoration: none;
+      color: var(--primary);
+    }
+
+    .mb-4-rem {
+      margin-bottom: 4rem;
+    }
+
+    .print-finishes-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      margin-top: 1rem;
+    }
+
+    .cta-box {
+      background: #fff5f8;
+      padding: 2rem;
+      border-radius: 12px;
+      border-left: 5px solid var(--secondary);
+    }
+
+    .cta-box-p {
+      margin-bottom: 0;
+    }
+
+    .contact-wrapper {
+      text-align: center;
+      margin-top: 3rem;
+    }
+
+    .contact-card {
+      background: var(--white);
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 8px 25px var(--shadow-light);
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .quick-start-options {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .contact-note {
+      margin-top: 1rem;
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+    }
   </style>
 
   <!-- External Libraries -->
@@ -687,8 +773,7 @@
       <div class="hero-content">
         <div class="hero-text">
           <h1 class="hero-title">
-            Canada's Finest Business Cards - Designed Hand-in-Hand with
-            Expert Designers
+            Canada's Finest Business Cards | Expert Design Services
           </h1>
           <p class="hero-subtitle">
             Experience luxury printing in Canada with personal designer
@@ -1067,7 +1152,7 @@
                 Learn how to select typography that reflects your brand
                 personality and ensures readability.
               </p>
-              <a href="#" class="btn btn-secondary">Read More</a>
+              <a href="blog/choosing-fonts-business-cards.html" class="btn btn-secondary">Read Typography Guide</a>
             </div>
           </article>
 
@@ -1081,7 +1166,7 @@
                 Maximize the impact of premium finishes with these
                 professional design guidelines.
               </p>
-              <a href="#" class="btn btn-secondary">Read More</a>
+              <a href="blog/foil-vs-uv-coating.html" class="btn btn-secondary">Read Foil & UV Guide</a>
             </div>
           </article>
 
@@ -1095,7 +1180,7 @@
                 Get inspired by these stunning business card designs from
                 various industries.
               </p>
-              <a href="#" class="btn btn-secondary">Read More</a>
+              <a href="blog/business-card-design-tips.html" class="btn btn-secondary">View Design Inspiration</a>
             </div>
           </article>
         </div>
@@ -1113,15 +1198,15 @@
           </p>
         </div>
 
-        <div class="faq-container" style="max-width: 900px; margin: 3rem auto 0">
+        <div class="faq-container seo-content-container">
 
           <!-- Ordering & Design -->
-          <h3 style="margin: 2rem 0 1rem; color: var(--primary);">Ordering & Design</h3>
+          <h3 class="faq-category-title">Ordering & Design</h3>
 
-          <div class="faq-item animate-on-scroll" itemscope itemtype="https://schema.org/Question">
-            <h4 class="faq-question" itemprop="name">How much do premium business cards cost in Canada?</h4>
-            <div class="faq-answer" itemscope itemtype="https://schema.org/Answer" itemprop="acceptedAnswer">
-              <p itemprop="text">
+          <div class="faq-item animate-on-scroll">
+            <h4 class="faq-question">How much do premium business cards cost in Canada?</h4>
+            <div class="faq-answer">
+              <p>
                 Our high-quality package costs <strong>$250 CAD for 1000 cards</strong>, regularly priced at $300. This
                 includes velvet matte paper, foil/UV coating options, 1 FREE NFC keychain, and free delivery across
                 Canada.
@@ -1129,20 +1214,20 @@
             </div>
           </div>
 
-          <div class="faq-item animate-on-scroll" itemscope itemtype="https://schema.org/Question">
-            <h4 class="faq-question" itemprop="name">Do you provide design services?</h4>
-            <div class="faq-answer" itemscope itemtype="https://schema.org/Answer" itemprop="acceptedAnswer">
-              <p itemprop="text">
+          <div class="faq-item animate-on-scroll">
+            <h4 class="faq-question">Do you provide design services?</h4>
+            <div class="faq-answer">
+              <p>
                 Yes! We offer <strong>personal designer support for $20</strong> (credited toward your final order).
                 You'll work hand-in-hand with a professional designer via WhatsApp to create your custom design.
               </p>
             </div>
           </div>
 
-          <div class="faq-item animate-on-scroll" itemscope itemtype="https://schema.org/Question">
-            <h4 class="faq-question" itemprop="name">What file formats do you accept for printing?</h4>
-            <div class="faq-answer" itemscope itemtype="https://schema.org/Answer" itemprop="acceptedAnswer">
-              <p itemprop="text">
+          <div class="faq-item animate-on-scroll">
+            <h4 class="faq-question">What file formats do you accept for printing?</h4>
+            <div class="faq-answer">
+              <p>
                 We prefer print-ready <strong>PDF</strong> files with embedded fonts. We also accept high-resolution
                 JPG, PNG (300 DPI), AI, and PSD files. If you're unsure, our designers can help check your files for
                 free.
@@ -1150,20 +1235,20 @@
             </div>
           </div>
 
-          <div class="faq-item animate-on-scroll" itemscope itemtype="https://schema.org/Question">
-            <h4 class="faq-question" itemprop="name">Can I see a proof before printing?</h4>
-            <div class="faq-answer" itemscope itemtype="https://schema.org/Answer" itemprop="acceptedAnswer">
-              <p itemprop="text">
+          <div class="faq-item animate-on-scroll">
+            <h4 class="faq-question">Can I see a proof before printing?</h4>
+            <div class="faq-answer">
+              <p>
                 Absolutely. We always provide a digital proof for your approval before we send anything to print. We
                 want to ensure everything is perfect.
               </p>
             </div>
           </div>
 
-          <div class="faq-item animate-on-scroll" itemscope itemtype="https://schema.org/Question">
-            <h4 class="faq-question" itemprop="name">Do you offer double-sided printing?</h4>
-            <div class="faq-answer" itemscope itemtype="https://schema.org/Answer" itemprop="acceptedAnswer">
-              <p itemprop="text">
+          <div class="faq-item animate-on-scroll">
+            <h4 class="faq-question">Do you offer double-sided printing?</h4>
+            <div class="faq-answer">
+              <p>
                 Yes, double-sided printing is included in our standard price. You can have a full-color design on both
                 the front and back of your card at no extra cost.
               </p>
@@ -1171,12 +1256,12 @@
           </div>
 
           <!-- Materials & Finishes -->
-          <h3 style="margin: 2rem 0 1rem; color: var(--primary);">Materials & Finishes</h3>
+          <h3 class="faq-category-title">Materials & Finishes</h3>
 
-          <div class="faq-item animate-on-scroll" itemscope itemtype="https://schema.org/Question">
-            <h4 class="faq-question" itemprop="name">What is "Velvet Matte" finish?</h4>
-            <div class="faq-answer" itemscope itemtype="https://schema.org/Answer" itemprop="acceptedAnswer">
-              <p itemprop="text">
+          <div class="faq-item animate-on-scroll">
+            <h4 class="faq-question">What is "Velvet Matte" finish?</h4>
+            <div class="faq-answer">
+              <p>
                 Velvet matte (also known as "soft-touch") is a premium lamination that gives the card a smooth,
                 suede-like texture. It feels luxurious to the touch and helps protect the card from scratches and
                 scuffs.
@@ -1184,20 +1269,20 @@
             </div>
           </div>
 
-          <div class="faq-item animate-on-scroll" itemscope itemtype="https://schema.org/Question">
-            <h4 class="faq-question" itemprop="name">What foil colors are available?</h4>
-            <div class="faq-answer" itemscope itemtype="https://schema.org/Answer" itemprop="acceptedAnswer">
-              <p itemprop="text">
+          <div class="faq-item animate-on-scroll">
+            <h4 class="faq-question">What foil colors are available?</h4>
+            <div class="faq-answer">
+              <p>
                 We offer standard <strong>Gold and Silver</strong> foil. We also have options for Red, Blue, and
                 Holographic foil upon request for specific custom orders.
               </p>
             </div>
           </div>
 
-          <div class="faq-item animate-on-scroll" itemscope itemtype="https://schema.org/Question">
-            <h4 class="faq-question" itemprop="name">What is the difference between Foil and Spot UV?</h4>
-            <div class="faq-answer" itemscope itemtype="https://schema.org/Answer" itemprop="acceptedAnswer">
-              <p itemprop="text">
+          <div class="faq-item animate-on-scroll">
+            <h4 class="faq-question">What is the difference between Foil and Spot UV?</h4>
+            <div class="faq-answer">
+              <p>
                 <strong>Foil</strong> is a metallic material stamped onto the card to add shine and color (like gold).
                 <strong>Spot UV</strong> is a clear, glossy coating that highlights specific areas (like a logo) against
                 the matte background. Both add a premium tactile element.
@@ -1205,10 +1290,10 @@
             </div>
           </div>
 
-          <div class="faq-item animate-on-scroll" itemscope itemtype="https://schema.org/Question">
-            <h4 class="faq-question" itemprop="name">Are your cards eco-friendly?</h4>
-            <div class="faq-answer" itemscope itemtype="https://schema.org/Answer" itemprop="acceptedAnswer">
-              <p itemprop="text">
+          <div class="faq-item animate-on-scroll">
+            <h4 class="faq-question">Are your cards eco-friendly?</h4>
+            <div class="faq-answer">
+              <p>
                 We strive to be environmentally conscious. Our paper is sourced from sustainable forests, and we use
                 vegetable-based inks where possible. Our high-quality cards are also designed to be kept, not thrown
                 away, reducing waste.
@@ -1216,10 +1301,10 @@
             </div>
           </div>
 
-          <div class="faq-item animate-on-scroll" itemscope itemtype="https://schema.org/Question">
-            <h4 class="faq-question" itemprop="name">Can I write on the cards?</h4>
-            <div class="faq-answer" itemscope itemtype="https://schema.org/Answer" itemprop="acceptedAnswer">
-              <p itemprop="text">
+          <div class="faq-item animate-on-scroll">
+            <h4 class="faq-question">Can I write on the cards?</h4>
+            <div class="faq-answer">
+              <p>
                 Our velvet matte finish is coated, so standard ballpoint pens may smudge. We recommend using a permanent
                 marker (like a Sharpie) if you need to write on them.
               </p>
@@ -1229,17 +1314,17 @@
           <!-- Shipping & Delivery -->
           <h3 style="margin: 2rem 0 1rem; color: var(--primary);">Shipping & Delivery</h3>
 
-          <div class="faq-item animate-on-scroll" itemscope itemtype="https://schema.org/Question">
-            <h4 class="faq-question" itemprop="name">How long does delivery take?</h4>
-            <div class="faq-answer" itemscope itemtype="https://schema.org/Answer" itemprop="acceptedAnswer">
-              <p itemprop="text">
+          <div class="faq-item animate-on-scroll">
+            <h4 class="faq-question">How long does delivery take?</h4>
+            <div class="faq-answer">
+              <p>
                 Standard delivery is <strong>10-12 business days</strong> across Canada. This includes production time
                 and shipping.
               </p>
             </div>
           </div>
 
-          <div class="faq-item animate-on-scroll" itemscope itemtype="https://schema.org/Question">
+          <div class="faq-item animate-on-scroll">
             <h4 class="faq-question" itemprop="name">Is shipping really free?</h4>
             <div class="faq-answer" itemscope itemtype="https://schema.org/Answer" itemprop="acceptedAnswer">
               <p itemprop="text">
@@ -1334,25 +1419,24 @@
           <p>Everything you need to know about design, etiquette, and printing technology</p>
         </div>
 
-        <div class="seo-content animate-on-scroll" style="max-width: 900px; margin: 3rem auto; line-height: 1.8;">
+        <div class="seo-content animate-on-scroll seo-content-container">
 
           <!-- Table of Contents -->
-          <div style="background: #f8f9fa; padding: 2rem; border-radius: 12px; margin-bottom: 3rem;">
-            <h4 style="margin-bottom: 1rem;">Table of Contents</h4>
-            <ul
-              style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; list-style: none; padding: 0;">
-              <li><a href="#etiquette" style="text-decoration: none; color: var(--primary);">1. Business Card
+          <div class="seo-toc">
+            <h4 class="toc-title">Table of Contents</h4>
+            <ul class="toc-list">
+              <li><a href="#etiquette" class="toc-link">1. Business Card
                   Etiquette</a></li>
-              <li><a href="#psychology" style="text-decoration: none; color: var(--primary);">2. The Psychology of
+              <li><a href="#psychology" class="toc-link">2. The Psychology of
                   Design</a></li>
-              <li><a href="#technical" style="text-decoration: none; color: var(--primary);">3. Technical Printing
+              <li><a href="#technical" class="toc-link">3. Technical Printing
                   Guide</a></li>
-              <li><a href="#marketing" style="text-decoration: none; color: var(--primary);">4. Marketing Strategy</a>
+              <li><a href="#marketing" class="toc-link">4. Marketing Strategy</a>
               </li>
             </ul>
           </div>
 
-          <div id="etiquette" style="margin-bottom: 4rem;">
+          <div id="etiquette" class="mb-4-rem">
             <h3>1. Business Card Etiquette in Canada and Beyond</h3>
             <p>
               In the digital age, the physical exchange of a <strong>business card</strong> remains a cornerstone of
@@ -1384,7 +1468,7 @@
             </p>
           </div>
 
-          <div id="psychology" style="margin-bottom: 4rem;">
+          <div id="psychology" class="mb-4-rem">
             <h3>2. The Psychology of Business Card Design</h3>
             <p>
               Your card is a silent ambassador. Every element, from color to texture, communicates a subconscious
@@ -1455,7 +1539,7 @@
             </ul>
 
             <h4>Print Finishes Explained</h4>
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-top: 1rem;">
+            <div class="print-finishes-grid">
               <div>
                 <h5>Foil Stamping</h5>
                 <p>
@@ -1515,10 +1599,9 @@
             </p>
           </div>
 
-          <div
-            style="background: #fff5f8; padding: 2rem; border-radius: 12px; border-left: 5px solid var(--secondary);">
+          <div class="cta-box">
             <h4>Ready to Elevate Your Brand?</h4>
-            <p style="margin-bottom: 0;">
+            <p class="cta-box-p">
               Now that you understand the science and art behind premium business cards, it's time to create your own.
               At MaplePrints, we combine expert design, premium materials, and cutting-edge printing technology to
               deliver cards that you'll be proud to hand out.
@@ -1537,22 +1620,10 @@
           <p>Connect with us today and elevate your professional image</p>
         </div>
 
-        <div style="text-align: center; margin-top: 3rem" class="animate-on-scroll">
-          <div style="
-                background: var(--white);
-                padding: 2rem;
-                border-radius: 12px;
-                box-shadow: 0 8px 25px var(--shadow-light);
-                max-width: 600px;
-                margin: 0 auto;
-              ">
-            <h3 style="margin-bottom: 1rem">Quick Start Options</h3>
-            <div style="
-                  display: flex;
-                  gap: 1rem;
-                  justify-content: center;
-                  flex-wrap: wrap;
-                ">
+        <div class="animate-on-scroll contact-wrapper">
+          <div class="contact-card">
+            <h3>Quick Start Options</h3>
+            <div class="quick-start-options">
               <button class="btn btn-primary btn-large" data-whatsapp="existing-design">
                 I Have a Design
               </button>
@@ -1560,11 +1631,7 @@
                 I Need a Design
               </button>
             </div>
-            <p style="
-                  margin-top: 1rem;
-                  font-size: 0.9rem;
-                  color: var(--text-secondary);
-                ">
+            <p class="contact-note">
               Click to connect via WhatsApp • Response within 24 hours
             </p>
           </div>
